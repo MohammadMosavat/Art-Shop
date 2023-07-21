@@ -1,0 +1,31 @@
+
+.font-52{
+    font-size: 3.25rem;
+}
+
+
+.pr-104{
+    padding-right: 104px;
+}
+
+.pl-208px{
+    padding-left: 208px;
+}
+
+svg[focusable="false"]{
+    display: none;
+}
+
+
+
+.mt-100{
+    margin-top: 4rem;
+}
+ 
+.image path{
+    fill: black;
+}
+
+.image2 path{
+    fill: white;
+}

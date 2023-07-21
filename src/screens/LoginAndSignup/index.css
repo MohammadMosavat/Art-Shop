@@ -1,0 +1,15 @@
+
+
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#chk {
+  display: none;
+}
+
+.w-70 {
+  width: 70%;
+}

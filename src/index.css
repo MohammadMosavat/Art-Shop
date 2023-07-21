@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url(//db.onlinewebfonts.com/c/a1bc18b26205f46862beafc4d4cbcee0?family=OptimaLTStd);
+@font-face {font-family: "OptimaLTStd"; src: url("//db.onlinewebfonts.com/t/a1bc18b26205f46862beafc4d4cbcee0.eot"); src: url("//db.onlinewebfonts.com/t/a1bc18b26205f46862beafc4d4cbcee0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a1bc18b26205f46862beafc4d4cbcee0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a1bc18b26205f46862beafc4d4cbcee0.woff") format("woff"), url("//db.onlinewebfonts.com/t/a1bc18b26205f46862beafc4d4cbcee0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a1bc18b26205f46862beafc4d4cbcee0.svg#OptimaLTStd") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/3e3783b37e6c76a28bfd46ff55eb004e?family=Optima+LT+Std);
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+
+body {
+    background-color: var(--primary-color-white);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color-black:#060505;
+    --sec-color-black:#333333;
+    --third-color-black:#666666;
+    --primary-color-white:#fafafa;
+    --sec-color-white:#e8eddf;
+    --third-color-white:#999999;
+    --forth-color-white:#d4d4d8;
+    --primary-shadow:rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --sec-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --third-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    --sec-font: 'Karla', sans-serif;
+    --primary-font: "OptimaLTStd";
+    --primary-font-STD: "Optima LT Std";
+}
+
+.primary-shadow{
+    box-shadow: var(--primary-shadow)
+}
+
+.primary-shadow-hover:hover{
+    box-shadow: var(--primary-shadow)
+}
+
+.sec-shadow{
+    box-shadow: var(--sec-shadow)
+}
+
+.sec-shadow-hover:hover{
+    box-shadow:  var(--sec-shadow)
+}
+
+.third-shadow{
+    box-shadow: var(--third-shadow)
+}
+
+
+.third-shadow-hover:hover{
+    box-shadow: var(--third-shadow)
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+
+.off-white{
+    color: var(--off-white);
+}
+
+.off-white2{
+    color: var(--off-white2);
+}
+
+.bg-off-white{
+    background-color: var(--off-white);
+}
+
+.bg-off-white2{
+    background-color: var(--off-white2);
+}
+
+.gray{
+    color:  var(--gray-color);
+}
+
+
+
+
+.sec-font{
+    font-family: var(--sec-font)
+}
+
+.primary-font{
+    font-family: var(--primary-font)
+}
+
+.primary-std-font{
+    font-family: var(--primary-font-STD)
+}
+
+.div:focus{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: var(--black-color);
+}
+.bg-pay{
+    background:url(/src/assets/images/payment-background-design_1212-566.jpg)
+}
+@media (min-width: 500px) {
+    .bg {
+      background: url(/src/assets/images/bg.jfif);
+    }
+    .bg-two {
+      background: none;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .bg {
+      background: none;
+    }
+  
+    .bg-two {
+      background: url(/src/assets/images/bg.jfif);
+    }
+  }
+
+.black-color2{
+    color: var(--black-color2);
+}
+
+.black-color{
+    color: var(--black-color);
+}
+
+.black-bg-color{
+    background-color: var(--black-color);
+}
+
+.black-bg-color2{
+    background-color: var(--black-color2);
+}
+.white-color{
+    color: var(--white-color);
+}
+
+.white-bg-color{
+    background-color: var(--white-color);
+}
+
+
+
+
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}

@@ -1,0 +1,30 @@
+
+
+.card-paint{
+    height: 550px;
+}
+
+#splide01-slide01 , #splide01-slide02 , #splide01-slide03{
+    margin-top: 53px;
+}
+
+
+.h-204{
+    height: 239px;
+}
+
+.max-h{
+    max-height: 598px;
+}
+
+.h-48-percent{
+    height: 48%;
+}
+
+.h-550{
+    height: 477px;
+}
+
+.shadow-css:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

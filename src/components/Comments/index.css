@@ -1,0 +1,38 @@
+
+  .header {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  .header .image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 9999px;
+    object-fit: cover;
+    background-color: royalblue;
+  }
+  
+  
+  .stars svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .name {
+    margin-top: 0.25rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgba(55, 65, 81, 1);
+  }
+  
+  .message {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-top: 1rem;
+    color: rgba(107, 114, 128, 1);
+  }

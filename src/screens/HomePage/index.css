@@ -1,0 +1,47 @@
+
+.px-150{
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.py-14{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.letter-space{
+    letter-spacing: 0.875px;
+}
+
+.bg-footer{
+    background-color: #F4F4F2;;
+}
+
+.h-footer{
+    height: 255px;
+}
+
+.letter-spacing{
+    letter-spacing: 0.875px;
+}
+
+.p-footer{
+    padding: 0px 428px;
+}
+
+
+nav ul li , img{
+    cursor: pointer;
+}
+
+
+/* Light mode styles */
+
+  
+  /* Dark mode styles */
+
+
+
+.retroButton{
+    box-shadow: 0.25rem 0.25rem black;
+}
